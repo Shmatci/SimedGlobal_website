@@ -1,23 +1,33 @@
 const Intro = () => {
   return (
     <>
-      <div className="title-style-eleven">
-        <div className="sc-title">ABOUT US</div>
-        <h2 className="main-title tx-dark">
-          Create <br /> visual strategy lorem.
-        </h2>
-      </div>
-      <div className="d-flex mt-70 mb-40 lg-mt-40 lg-mb-10">
-        <img
-          src="/images/shape/shape_164.svg"
-          alt=""
-          className="lazy-img d-none d-lg-block"
-        />
-        <p className="text-lg m0 ps-lg-5">
-          Inciddnt ut labore et dolor magna aliu. enim ad mim venam, quis nostru
-          labore elit lorem dus amet lorem.
+      
+      <div className="d-flex mt-70 mb-20 lg-mt-40 lg-mb-10">
+        <p className="text-lg m0 ps-lg-5 text-warning">
+        Our screening devices are designed to meet all needs, with options ranging from high throughout desktop models to portable handheld devices.
         </p>
       </div>
+      <div className="d-flex mt-70 mb-60 lg-mt-40 lg-mb-10">
+        <p className="text-lg m0 ps-lg-5">
+        We also provide an affordable game changing total solution for POC blood tests for health screening in community settings – Pharmacies, GP’s, Primary Care etc… that includes:
+        </p>
+        <p className="text-lg m0 ps-lg-5">
+        Mobile screening device with over 35 parameters, no need for a phlebotomist and with Instant CQC registered Doctor reviewed results and reports generated, 
+        for more information <strong>click here</strong>.
+        </p>
+      </div>
+      <div className="title-style-eleven mb-40">
+        <h2 className="main-title tx-dark">
+        We also have our own full range of <br /> <a href="#" className="text-decoration-underline">Self Health Home Tests</a>.
+        </h2>
+      </div>
+      <div className="d-flex mt-70 mb-60 lg-mt-40 lg-mb-10">
+        <p className="text-lg m0 ps-lg-5">
+        We are proud to be working with the Liverpool School of Tropical Medicine and the University of Liverpool Hospital together with our investors on our new instant diagnostic technologies for population diseases, that will be launching in the near future.
+        </p>
+       
+      </div>
+      
     </>
   );
 };

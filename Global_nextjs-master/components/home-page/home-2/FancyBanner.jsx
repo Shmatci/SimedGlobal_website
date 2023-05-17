@@ -3,8 +3,8 @@ import Link from "next/link";
 const FancyBanner = () => {
   const bannerData = [
     {
-      title: "TRSUTED SECURITY",
-      mainTitle: "Security you can trust blindly.",
+      title: "3T's",
+      mainTitle: "Tomorrow's Technology Today",
       description:
         "Lorem ipsum began as scrambled, Latin derived Cicero's 1st-century BC text De Finibus ubiquitous lorem ipsum passage.",
       buttonLabel: "Click here to learn more",

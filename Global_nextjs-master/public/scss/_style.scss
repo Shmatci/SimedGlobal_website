@@ -541,14 +541,15 @@ p {
   z-index: -1;
 }
 .title-style-eleven .main-title {
-  font-size: 64px;
+  font-size: 44px;
   line-height: 1.25em;
-  letter-spacing: -2px;
+  letter-spacing: 2px;
+  color: #00869d;
 }
 .title-style-eleven .sc-title {
   font-size: 15px;
   letter-spacing: 2px;
-  color: rgba(0, 0, 0, 0.3);
+  color: #00869d;
   margin-bottom: 15px;
 }
 .title-style-twelve .sc-title {
@@ -1511,7 +1512,7 @@ body .btn-twentyTwo:hover {
   bottom: 10px;
   width: 100%;
   height: 18px;
-  background: rgba(255, 121, 0, 0.51);
+  background: #00869d;
   mix-blend-mode: normal;
   opacity: 0.5;
   z-index: -1;
@@ -2144,7 +2145,7 @@ body .btn-twentyTwo:hover {
   transform: translateY(-50%);
   width: 73%;
   height: 81%;
-  background: #ffebe5;
+  background: #00869d20;
   z-index: -1;
 }
 .hero-banner-two .hero-heading .line-shape {

@@ -16,7 +16,7 @@ const LogIn = () => {
         <div className="inner-content position-relative">
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
-              <Link href="/" className="d-block">
+              <Link href="/ttt" className="d-block">
                 <img src="/images/logo/logo_01.png" alt="" width={95} />
               </Link>
             </div>
@@ -40,7 +40,7 @@ const LogIn = () => {
             <h2 className="tx-dark mb-30 lg-mb-10">Login</h2>
             <p className="fs-20 tx-dark">
               Still don&lsquo;t have an account?{" "}
-              <Link href="/signup">Sign up</Link>
+              <Link href="/ttt">Sign up</Link>
             </p>
           </div>
           <LoginForm />
