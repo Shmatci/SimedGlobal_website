@@ -1,0 +1,150 @@
+# Query: thumbnail
+# ContextLines: 1
+
+36 results - 11 files
+
+documentation/index.html:
+  207                  </h3>
+  208:                 <img class="w-100 img-thumbnail" src="images/site_icon-1.jpg" alt="installation">
+  209                  <br>
+  210                  <br>
+  211:                 <img class="w-100 img-thumbnail" src="img/jano/installation/2.png" alt="installation">
+  212                  <br>
+
+  216                  </h4>
+  217:                 <img class="w-100 img-thumbnail" src="img/jano/installation/3.png" alt="installation">
+  218                  <br>
+
+  230                    </p>
+  231:                   <img class="w-100 img-thumbnail" src="img/jano/included/1.png" alt="whats-included" />
+  232                  </div>
+
+  311                    <figure>
+  312:                     <img class="w-100 img-thumbnail" src="img/jano/basic-setting/faviocn.png"
+  313                        alt="go to Appearance -> Import Demo Data" />
+
+  319                    <figure>
+  320:                     <img class="w-100 img-thumbnail" src="img/jano/basic-setting/2.png"
+  321                        alt="go to Appearance -> Import Demo Data" />
+
+  326                    <figure>
+  327:                     <img class="w-100 img-thumbnail" src="img/jano/basic-setting/1.png"
+  328                        alt="go to Appearance -> Import Demo Data" />
+
+  349                    <figure>
+  350:                     <img class="w-100 img-thumbnail" src="img/jano/basic-setting/logo.png"
+  351                        alt="Go to Dashboard > Imroz template Options > General > upload your logo from here." />
+
+  375                    <figure>
+  376:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/header.png"
+  377                        alt="Change Profile Image" />
+
+  399                    <figure>
+  400:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/slider.png"
+  401                        alt="Change Profile Image" />
+
+  423                    <figure>
+  424:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/about.png" alt="about Image" />
+  425                      <figcaption class="text-center">
+
+  445                    <figure>
+  446:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/service.png" alt="service Image" />
+  447                      <figcaption class="text-center">
+
+  467                    <figure>
+  468:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/team.png" alt="team Image" />
+  469                      <figcaption class="text-center">
+
+  489                    <figure>
+  490:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/portfolio.png" alt="portfolio Image" />
+  491                      <figcaption class="text-center">
+
+  513                    <figure>
+  514:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/blog_archive.png"
+  515                        alt="Change Blog Archive Setting" />
+
+  542                    <figure>
+  543:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/contact-form.png"
+  544                        alt="Change Blog Archive Setting" />
+
+  549                    <figure>
+  550:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/address.png"
+  551                        alt="Change Blog Archive Setting" />
+
+  556                    <figure>
+  557:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/multi.png"
+  558                        alt="Change Blog Archive Setting" />
+
+  591                    <figure>
+  592:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/footer.png"
+  593                        alt="Change Back to Top Arrow Setting" />
+
+  598                    <figure>
+  599:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/copy_right.png"
+  600                        alt="Change Back to Top Arrow Setting" />
+
+  623                    <figure>
+  624:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/data.png"
+  625                        alt="Change Back to Top Arrow Setting" />
+
+  650                    <figure>
+  651:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/404.png"
+  652                        alt="Change Back to Top Arrow Setting" />
+
+  669                    <figure>
+  670:                     <img class="w-100 img-thumbnail" src="img/jano/theme-options/global-color.png"
+  671                        alt="go to Appearance -> Import Demo Data" />
+
+documentation/assets/bootstrap/css/bootstrap.min.css:
+  5   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  6: ⟪ 5319 characters skipped ⟫blockquote{margin-bottom:1rem;font-size:1.25rem}.blockquote-footer{display:block;font-size:80%;color:#6c757d}.blockquote-footer::before{content:"\2014\00A0"}.img-fluid{max-width:100%;height:auto}.img-thumbnail{padding:.25rem;background-color:#fff;border:1px solid #dee2e6;border-radius:.25rem;max-width:100%;height:auto}.figure{display:inline-block}.figure-img{margin-bottom:.5rem;line-height:1}.figure-caption{font-size:90%;color:#6c757d}code{font-size:87.5%;color:#e83e8c;word-break:break-word}a>code{color:inherit}kbd{padding:.2rem .4rem;font-size:87.5%;color:#fff;background-color:#212529;border-radius:.2rem}kbd kbd{padding:0;font-size:100%;font-weight:700}pre{display:block;font-size:87.5%;color:#212529}pre code{font-size:inherit;color:inherit;word-break:normal}.pre-scrollable{max-height:340px;overflow-y:scroll}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-
+  7  /*# sourceMappingURL=bootstrap.min.css.map */
+
+documentation/assets/prism/prism.js:
+  112  Prism.languages.matlab={comment:[/%\{[\s\S]*?\}%/,/%.+/],string:{pattern:/\B'(?:''|[^'\r\n])*'/,greedy:!0},number:/(?:\b\d+\.?\d*|\B\.\d+)(?:[eE][+-]?\d+)?(?:[ij])?|\b[ij]\b/,keyword:/\b(?:break|case|catch|continue|else|elseif|end|for|function|if|inf|NaN|otherwise|parfor|pause|pi|return|switch|try|while)\b/,function:/(?!\d)\w+(?=\s*\()/,operator:/\.?[*^\/\\']|[+\-:@]|[<>=~]=?|&&?|\|\|?/,punctuation:/\.{3}|[.,;\[\](){}!]/};
+  113: ⟪ 12203 characters skipped ⟫tionList|renameUI|render|renderGlobalsNode|renderInfo|renderLayerButton|renderLayerParent|renderLayerPostProcess|renderLayerUnparent|renderManip|renderPartition|renderQualityNode|renderSettings|renderThumbnailUpdate|renderWindowEditor|renderWindowSelectContext|renderer|reorder|reorderDeformers|requires|reroot|resampleFluid|resetAE|resetPfxToPolyCamera|resetTool|resolutionNode|retarget|reverseCurve|reverseSurface|revolve|rgb_to_hsv|rigidBody|rigidSolver|roll|rollCtx|rootOf|rot|rotate|rotationInterpolation|roundConstantRadius|rowColumnLayout|rowLayout|runTimeCommand|runup|sampleImage|saveAllShelves|saveAttrPreset|saveFluid|saveImage|saveInitialState|saveMenu|savePrefObjects|savePrefs|saveShelf|saveToolSettings|scale|scaleBrushBrightness|scaleComponents|scaleConstraint|scaleKey|scaleKeyCtx|sceneEditor|sceneUIReplacement|scmh|scriptCtx|scriptEditorInfo|scriptJob|scriptNode|scriptTable|scriptToShelf|scriptedPanel|scriptedPanelType|scrollField|scrollLayout|sculpt|searchPathArray|seed|selLoadSettings|select|selectContext|selectCurveCV|selectKey|selectKeyCtx|selectKeyframeRegionCtx|selectMode|selectPref|selectPriority|selectType|selectedNodes|selectionConnection|separator|setAttr|setAttrEn
+  114  Prism.languages.mizar={comment:/::.+/,keyword:/@proof\b|\b(?:according|aggregate|all|and|antonym|are|as|associativity|assume|asymmetry|attr|be|begin|being|by|canceled|case|cases|clusters?|coherence|commutativity|compatibility|connectedness|consider|consistency|constructors|contradiction|correctness|def|deffunc|define|definitions?|defpred|do|does|equals|end|environ|ex|exactly|existence|for|from|func|given|hence|hereby|holds|idempotence|identity|iff?|implies|involutiveness|irreflexivity|is|it|let|means|mode|non|not|notations?|now|of|or|otherwise|over|per|pred|prefix|projectivity|proof|provided|qua|reconsider|redefine|reduce|reducibility|reflexivity|registrations?|requirements|reserve|sch|schemes?|section|selector|set|sethood|st|struct|such|suppose|symmetry|synonym|take|that|the|then|theorems?|thesis|thus|to|transitivity|uniqueness|vocabular(?:y|ies)|when|where|with|wrt)\b/,parameter:{pattern:/\$(?:10|\d)/,alias:"variable"},variable:/\w+(?=:)/,number:/(?:\b|-)\d+\b/,operator:/\.\.\.|->|&|\.?=/,punctuation:/\(#|#\)|[,:;\[\](){}]/};
+
+  152  !function(i){var t=i.util.clone(i.languages.javascript);i.languages.jsx=i.languages.extend("markup",t),i.languages.jsx.tag.pattern=/<\/?(?:[\w.:-]+\s*(?:\s+(?:[\w.:-]+(?:=(?:("|')(?:\\[\s\S]|(?!\1)[^\\])*\1|[^\s{'">=]+|\{(?:\{(?:\{[^}]*\}|[^{}])*\}|[^{}])+\}))?|\{\.{3}[a-z_$][\w$]*(?:\.[a-z_$][\w$]*)*\}))*\s*\/?)?>/i,i.languages.jsx.tag.inside.tag.pattern=/^<\/?[^\s>\/]*/i,i.languages.jsx.tag.inside["attr-value"].pattern=/=(?!\{)(?:("|')(?:\\[\s\S]|(?!\1)[^\\])*\1|[^\s'">]+)/i,i.languages.jsx.tag.inside.tag.inside["class-name"]=/^[A-Z]\w*(?:\.[A-Z]\w*)*$/,i.languages.insertBefore("inside","attr-name",{spread:{pattern:/\{\.{3}[a-z_$][\w$]*(?:\.[a-z_$][\w$]*)*\}/,inside:{punctuation:/\.{3}|[{}.]/,"attr-value":/\w+/}}},i.languages.jsx.tag),i.languages.insertBefore("inside","attr-value",{script:{pattern:/=(?:\{(?:\{(?:\{[^}]*\}|[^}])*\}|[^}])+\})/i,inside:{"script-punctuation":{pattern:/^=(?={)/,alias:"punctuation"},rest:i.languages.jsx},alias:"language-javascript"}},i.languages.jsx.tag);var o=function(t){return t?"string"==typeof t?t:"string"==typeof t.content?t.content:t.content.map(o).join(""):""},p=function(t){for(var n=[],e=0;e<t.length;e++){var a=t[e],s=!1;if("string"!=typeof a&&("tag"===a.type&&a.content[0]&&"tag"===a.content[0].type?"</"===a.content[0].content[0].content?0<n.length&&n[n.length-1].tagName===o(a.content[0].content[1])&&n.pop():"/>"===a.content[a.content.length-1].content||n.push({tagName:o(a.content[0].content[1]),openedBraces:0}):0<n.length&&"punctuation"===a.type&&"{"===a.content?n[n.length-1].openedBraces++:0<n.length&&0<n[n.length-1].openedBraces&&"punctuation"===a.type&&"}"===a.content?n[n.length-1].openedBraces--:s=!0),(s||"string"==typeof a)&&0<n.length&&0===n[n.length-1].openedBraces){var g=o(a);e<t.length-1&&("string"==typeof t[e+1]||"plain-text"===t[e+1].type)&&(g+=o(t[e+1]),t.splice(e+1,1)),0<e&&("string"==typeof t[e-1]||"plain-text"===t[e-1].type)&&(g=o(t[e-1])+g,t.splice(e-1,1),e--),t[e]=new i.Token("plain-text",g,null,g)}a.content&&"string"!=typeof a.content&&p(a.content)}};i.hooks.add("after-tokenize",function(t){"jsx"!==t.language&&"tsx"!==t.language||p(t.tokens)})}(Prism);
+  153: ⟪ 1059 characters skipped ⟫utter|right_gutter|top_gutter|bottom_gutter|left_bar|right_bar|top_bar|bottom_bar|thumb|thumb_shadow|thumb_offset|unscrollable|spacing|first_spacing|box_reverse|box_wrap|order_reverse|fit_first|ysize|thumbnail_width|thumbnail_height|help|text_ypos|text_xpos|idle_color|hover_color|selected_idle_color|selected_hover_color|insensitive_color|alpha|insensitive_background|hover_background|zorder|value|width|xadjustment|xanchoraround|xaround|xinitial|xoffset|xzoom|yadjustment|yanchoraround|yaround|yinitial|yzoom|zoom|ground|height|text_style|text_y_fudge|selected_insensitive|has_sound|has_music|has_voice|focus|hovered|image_style|length|minwidth|mousewheel|offset|prefix|radius|range|right_margin|rotate|rotate_pad|developer|screen_width|screen_height|window_title|name|version|windows_icon|default_fullscreen|default_text_cps|default_afm_time|main_menu_music|sample_sound|enter_sound|exit_sound|save_directory|enter_transition|exit_transition|intra_transition|main_game_transition|game_main_transition|end_splash_transition|end_game_transition|after_load_transition|window_show_transition|window_hide_transition|adv_nvl_transition|nvl_adv_transition|enter_yesno_transition|exit_yesno_transition|enter_replay_transi
+  154  Prism.languages.reason=Prism.languages.extend("clike",{comment:{pattern:/(^|[^\\])\/\*[\s\S]*?\*\//,lookbehind:!0},string:{pattern:/"(?:\\(?:\r\n|[\s\S])|[^\\\r\n"])*"/,greedy:!0},"class-name":/\b[A-Z]\w*/,keyword:/\b(?:and|as|assert|begin|class|constraint|do|done|downto|else|end|exception|external|for|fun|function|functor|if|in|include|inherit|initializer|lazy|let|method|module|mutable|new|nonrec|object|of|open|or|private|rec|sig|struct|switch|then|to|try|type|val|virtual|when|while|with)\b/,operator:/\.{3}|:[:=]|\|>|->|=(?:==?|>)?|<=?|>=?|[|^?'#!~`]|[+\-*\/]\.?|\b(?:mod|land|lor|lxor|lsl|lsr|asr)\b/}),Prism.languages.insertBefore("reason","class-name",{character:{pattern:/'(?:\\x[\da-f]{2}|\\o[0-3][0-7][0-7]|\\\d{3}|\\.|[^'\\\r\n])'/,alias:"string"},constructor:{pattern:/\b[A-Z]\w*\b(?!\s*\.)/,alias:"variable"},label:{pattern:/\b[a-z]\w*(?=::)/,alias:"symbol"}}),delete Prism.languages.reason.function;
+
+documentation/assets/Youtube-Channels-Playlist/js/ycp.js:
+  57                      ycp_part(b, i, k, l);
+  58:                     d += `<div class="play" data-vvv="${b}" data-img="${c.items[i].snippet.thumbnails.high.url}" title="${c.items[i].snippet.title}"><div class="thumb"><img src="${c.items[i].snippet.thumbnails.default.url}" alt=" "><span class="tm${i}"></span></div>`;
+  59                      d += `<div class="title">${c.items[i].snippet.title}</div><span class="mute by${i}"></span><br><span class="mute views${i}"></span> <span class="mute">-</span> <span class="mute date${i}"></span></div>`
+
+simed/components/home-page/home-12/Portfolio.jsx:
+  42                      original={item.imgSrc}
+  43:                     thumbnail={item.imgSrc}
+  44                      width={1320}
+
+simed/components/home-page/home-9/Portfolio.jsx:
+  104                        original={item.image}
+  105:                       thumbnail={item.image}
+  106                        width={800}
+
+simed/components/portfolio/PortfolioGallery1.jsx:
+  78                        original={item.image}
+  79:                       thumbnail={item.image}
+  80                        width={630}
+
+simed/components/portfolio/PortfolioGallery2.jsx:
+  69                        original={item.image}
+  70:                       thumbnail={item.image}
+  71                        width={410}
+
+simed/components/portfolio/PortfolioGallery5.jsx:
+  70                        original={item.image}
+  71:                       thumbnail={item.image}
+  72                        width={800}
+
+simed/components/portfolio/PortfolioGallery6.jsx:
+  67                        original={item.image}
+  68:                       thumbnail={item.image}
+  69                        width={1320}
+
+simed/components/portfolio/portfolio-details/PortfolioGallery.jsx:
+  37                  original={image.src}
+  38:                 thumbnail={image.src}
+  39                  width={image.width}
