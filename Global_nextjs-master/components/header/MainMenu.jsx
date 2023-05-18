@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { tttItems } from "../../data/menu";
-
 import { useRouter } from "next/router";
 
 const MainMenu = () => {
@@ -48,7 +47,7 @@ const MainMenu = () => {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="/about/about-us"
+              href="/about"
               role="button"
               data-bs-auto-close="outside"
               aria-expanded="false"
@@ -67,7 +66,7 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              3T's
+              3T&apos;s
             </a>
             <ul className="dropdown-menu">
               {tttItems.map((item, index) => (

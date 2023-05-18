@@ -1,14 +1,14 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import PortfolioTopTitle from "../../components/portfolio/PortfolioTopTitle";
-import PortfolioGallery1 from "../../components/portfolio/PortfolioGallery1";
+import TopTitle from "../../components/portfolio/TopTitle";
+import TestsGallery from "../../components/portfolio/TestsGallery";
 import Link from "next/link";
 
-const PortfolioV1 = () => {
+const SelfHealthTests = () => {
   return (
     <>
-      <Seo pageTitle="Portfolio V1" />
+      <Seo pageTitle="Self Health Tests" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -21,14 +21,14 @@ const PortfolioV1 = () => {
         Feature Section Fifty One
         ============================================== 
         */}
-      <PortfolioTopTitle />
+      <TopTitle />
 
       {/* <!-- 
         =============================================
         Portfolio Gallery Three
         ============================================== 
         --> */}
-      <PortfolioGallery1 />
+      <TestsGallery />
 
       {/*
 			=====================================================
@@ -80,4 +80,4 @@ const PortfolioV1 = () => {
   );
 };
 
-export default PortfolioV1;
+export default SelfHealthTests;

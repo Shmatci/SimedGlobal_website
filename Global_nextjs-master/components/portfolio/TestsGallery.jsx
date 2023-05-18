@@ -1,11 +1,11 @@
 import { useState } from "react";
-import items from "../../data/portfolio";
+import items from "../../data/tests";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import Image from "next/image";
 
-const PortfolioGallery1 = () => {
+const TestsGallery = () => {
   const [filter, setFilter] = useState("*");
 
   const filteredItems =
@@ -16,49 +16,18 @@ const PortfolioGallery1 = () => {
   return (
     <div className="portfolio-gallery-three pt-30">
       <div className="container">
-        <ul className="style-none text-center isotop-menu-wrapper g-control-nav-two">
-          <li
-            className={filter === "*" ? "is-checked" : ""}
-            onClick={() => setFilter("*")}
-          >
-            All
-          </li>
-          <li
-            className={filter === "marketing" ? "is-checked" : ""}
-            onClick={() => setFilter("marketing")}
-          >
-            Marketing
-          </li>
-          <li
-            className={filter === "application" ? "is-checked" : ""}
-            onClick={() => setFilter("application")}
-          >
-            Application
-          </li>
-          <li
-            className={filter === "design" ? "is-checked" : ""}
-            onClick={() => setFilter("design")}
-          >
-            Design
-          </li>
-          <li
-            className={filter === "dev" ? "is-checked" : ""}
-            onClick={() => setFilter("dev")}
-          >
-            Development
-          </li>
-        </ul>
+        
         <div className="row pt-90 lg-pt-50">
           <Gallery>
             {filteredItems.map((item) => (
               <div
                 key={item.id}
-                className={`col-lg-6 col-md-6 ${item.category}`}
+                className={`col-lg-4 col-md-4 ${item.category}`}
               >
                 <div className="portfolio-block-three position-relative mb-110 lg-mb-90">
                   <div className="img-meta">
                     <Image
-                      width={630}
+                      width={350}
                       height={500}
                       src={item.image}
                       alt="gallary"
@@ -103,4 +72,4 @@ const PortfolioGallery1 = () => {
   );
 };
 
-export default PortfolioGallery1;
+export default TestsGallery;

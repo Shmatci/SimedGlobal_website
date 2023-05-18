@@ -64,11 +64,11 @@ export const pagesItems = [
   },
 ];
 
-export const tttItems = [
+export const   tttItems = [
   { name: "- Tomorrow's Technology Today", link: "/ttt" },
   { name: "- POC Blood Tests", link: "/ttt/poc" },
   { name: "- EarWell", link: "https://www.earwellclinics.com" },
-  { name: "- Self Health Tests", link: "/ttt/self-health-tests" },
+  { name: "- Self Health Tests", link: "/ttt/selfHealthTests" },
 ];
 
 export const blogItems = [

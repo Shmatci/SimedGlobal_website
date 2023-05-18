@@ -24,7 +24,8 @@ const Hero = () => {
                 non-invasive, health screening solutions to the market.
               </h1>
               <p className="text-lg mb-75 pt-20 lg-mb-50 lg-pt-10">
-              All our devices and tests significantly reduce costs, whilst providing valuable information for patients and physicians in a timely manner, to prevent disease progression and potentially save lives.
+              All our devices and tests significantly reduce costs, whilst providing valuable information for patients and 
+              physicians in a timely manner, to prevent disease progression and potentially save lives.
               </p>
               
             </div>
