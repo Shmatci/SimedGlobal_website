@@ -10,8 +10,8 @@ const TestsGallery = () => {
 
   const filteredItems =
     filter === "*"
-      ? items.slice(0, 8)
-      : items.slice(0, 8).filter((item) => item.category.includes(filter));
+      ? items.slice(0, 12)
+      : items.slice(0, 12).filter((item) => item.category.includes(filter));
 
   return (
     <div className="portfolio-gallery-three pt-30">
@@ -22,12 +22,12 @@ const TestsGallery = () => {
             {filteredItems.map((item) => (
               <div
                 key={item.id}
-                className={`col-lg-4 col-md-4 ${item.category}`}
+                className={`col-lg-6 col-md-6 ${item.category}`}
               >
                 <div className="portfolio-block-three position-relative mb-110 lg-mb-90">
                   <div className="img-meta">
                     <Image
-                      width={350}
+                      width={630}
                       height={500}
                       src={item.image}
                       alt="gallary"
