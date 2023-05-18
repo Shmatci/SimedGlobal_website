@@ -13,12 +13,12 @@ const Intro = () => {
         </p>
         <p className="text-lg m0 ps-lg-5">
         Mobile screening device with over 35 parameters, no need for a phlebotomist and with Instant CQC registered Doctor reviewed results and reports generated, 
-        for more information <strong>click here</strong>.
+        for more information <a href="../ttt/poc"><strong>click here</strong></a>.
         </p>
       </div>
       <div className="title-style-eleven mb-40">
         <h2 className="main-title tx-dark">
-        We also have our own full range of <br /> <a href="#" className="text-decoration-underline">Self Health Home Tests</a>.
+        We also have our own full range of <br /> <a href="../ttt/selfHealthTests" className="text-decoration-underline"><strong>Self Health Home Tests</strong></a>.
         </h2>
       </div>
       <div className="d-flex mt-70 mb-60 lg-mt-40 lg-mb-10">

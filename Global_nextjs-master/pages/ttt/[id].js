@@ -8,7 +8,7 @@ import CallToAction from "../../components/portfolio/CallToAction";
 import PortfolioGallery from "../../components/portfolio/portfolio-details/PortfolioGallery";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import portfolioData from "../../data/portfolio";
+import portfolioData from "../../data/tests";
 import PortfolioDetailsTitle from "../../components/portfolio/portfolio-details/PortfolioDetailsTitle";
 
 const DynamicPortfolioDetails = () => {

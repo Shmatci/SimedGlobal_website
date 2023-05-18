@@ -65,10 +65,9 @@ export const pagesItems = [
 ];
 
 export const   tttItems = [
-  { name: "- Tomorrow's Technology Today", link: "/ttt" },
-  { name: "- POC Blood Tests", link: "/ttt/poc" },
-  { name: "- EarWell", link: "https://www.earwellclinics.com" },
-  { name: "- Self Health Tests", link: "/ttt/selfHealthTests" },
+  { name: "POC Blood Tests", link: "/ttt/poc" },
+  { name: "EarWell", link: "https://www.earwellclinics.com", target: '_blank' },
+  { name: "Self Health Tests", link: "/ttt/selfHealthTests" },
 ];
 
 export const blogItems = [

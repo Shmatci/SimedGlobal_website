@@ -31,7 +31,7 @@ const MainMenu = () => {
           {/* End li */}
 
           <li className="nav-item dropdown mega-dropdown-md active">
-            <a
+            <Link
               className="nav-link"
               href="/"
               role="button"
@@ -39,35 +39,34 @@ const MainMenu = () => {
               aria-expanded="false"
             >
               Home
-            </a>
+            </Link>
             
           </li>
           {/* End li (home mega menu) */}
 
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link"
-              href="/about"
+              href="/about/about-us"
               role="button"
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
               About
-            </a>
+            </Link>
           </li>
           {/* End li (about page) */}
 
           <li className="nav-item dropdown">
-            <a
+            <Link
               className="nav-link dropdown-toggle"
               href="/ttt"
               role="button"
-              data-bs-toggle="dropdown"
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
               3T&apos;s
-            </a>
+            </Link>
             <ul className="dropdown-menu">
               {tttItems.map((item, index) => (
                 <li key={index}>
