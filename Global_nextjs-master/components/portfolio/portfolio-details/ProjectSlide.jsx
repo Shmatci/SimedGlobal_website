@@ -28,26 +28,7 @@ const ProjectSlide = ({ slide }) => {
       </div>
       {/* End carousel-inner */}
 
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#gallery-carousel"
-        data-bs-slide="prev"
-      >
-        <i className="bi bi-chevron-left"></i>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      {/* End prev */}
-
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#gallery-carousel"
-        data-bs-slide="next"
-      >
-        <i className="bi bi-chevron-right"></i>
-        <span className="visually-hidden">Next</span>
-      </button>
+      
       {/* End next */}
     </div>
   );

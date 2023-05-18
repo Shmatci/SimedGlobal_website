@@ -1,4 +1,4 @@
-const PortfolioDetailsTitle = ({ portfolio }) => {
+const TestsDetailsTitle = ({ portfolio }) => {
   return (
     <div className="fancy-feature-fiftyOne position-relative mt-200">
       <div className="container">
@@ -9,6 +9,7 @@ const PortfolioDetailsTitle = ({ portfolio }) => {
                 {portfolio?.tag}
               </div>
               <h2 className="main-title fw-500 tx-dark">{portfolio?.name}</h2>
+              <a href="../ttt/selfHealthTests">&laquo; Self Health Tests</a>
             </div>
           </div>
         </div>
@@ -18,4 +19,4 @@ const PortfolioDetailsTitle = ({ portfolio }) => {
   );
 };
 
-export default PortfolioDetailsTitle;
+export default TestsDetailsTitle;

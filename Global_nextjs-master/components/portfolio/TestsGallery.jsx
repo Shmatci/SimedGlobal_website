@@ -39,7 +39,7 @@ const TestsGallery = () => {
                       <span className="tag">{item.tag}</span>
                       <h6>
                         <Link 
-                          href={`/ttt/tests/${item.id}`} 
+                          href={`/ttt/${item.id}`} 
                           className="pj-title">
                           {item.name}
                         </Link>
