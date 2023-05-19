@@ -7,6 +7,9 @@ module.exports = [
     about: "The Ferritin Rapid Test is for the qualitative or semi-quantitative detection of human ferritin in human serum or plasma and whole blood as an aid in iron deficiency anemia diagnosis.",
     tag: "Simed Health",
     image: "/images/gallery/ferritin_test.png",
+    projectInfo: {
+      list: "Fast results | Easy visually interpretation | Simple operation, no equipment required | High accuracy"
+    },
   },
   {
     id: 2,
@@ -16,6 +19,9 @@ module.exports = [
     about: "The FOB Rapid Test Cassette (Feces) is a rapid test to qualitatively detect low levels of Fecal Occult Blood. Many diseases can cause hidden blood in the feces.",
     tag: "Simed Health",
     image: "/images/gallery/bowel_test.png",
+    projectInfo: {
+      list: "Fast results, Easy visually interpretation, Simple operation, no equipment required, High accuracy"
+    },
   },
   {
     id: 3,
@@ -25,6 +31,9 @@ module.exports = [
     about: "The SARS-CoV-2 and Influenza A+B Antigen Combo Rapid Test (Nasal Swab) is a single-use test kit intended to detect the SARS-CoV-2, Influenza A and Influenza B virus that causes COVID-19 and/or Influenza with self-collected nasal swab specimen. The test is intended for use in symptomatic / asymptomatic individuals who are suspected of being infected with COVID-19 and/or Influenza A+B.",
     tag: "Simed Health",
     image: "/images/gallery/covid_test.png",
+    projectInfo: {
+      list: "Fast results, Easy visually interpretation, Simple operation, no equipment required, High accuracy"
+    },
   },
   {
     id: 4,
@@ -34,6 +43,9 @@ module.exports = [
     about: "is for the semi-quantitative detection of 25-hydroxyvitamin D (25 (OH) D) in human fingerstick Whole blood at a cut-off concentration of 30 ± 4ng/mL. This assay provides a preliminary diagnostic test result and can be used to screening for Vitamin D deficiency.",
     tag: "Simed Health",
     image: "/images/gallery/vitaminD_test.png",
+    projectInfo: {
+      list: "Fast results, Easy visually interpretation, Simple operation, no equipment required, High accuracy"
+    },
   },
   {
     id: 5,

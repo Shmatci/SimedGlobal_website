@@ -13,7 +13,7 @@ const columns = [
     links: [
       { label: "POC Blood Tests", url: "/ttt/poc" },
       { label: "EarWell", url: "https://www.earwellclinics.com" },
-      { label: "Self Health Tests", url: "/ttt/self-health" },
+      { label: "Self Health Tests", url: "/ttt/selfHealthTests" },
     ],
   },
 ];

@@ -1,11 +1,9 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import SocialShare from "../../components/portfolio/portfolio-details/SocialShare";
 import ProjectDetails from "../../components/portfolio/portfolio-details/ProjectDetails";
 import ProjectSlide from "../../components/portfolio/portfolio-details/ProjectSlide";
 import CallToAction from "../../components/portfolio/CallToAction";
-import PortfolioGallery from "../../components/portfolio/portfolio-details/PortfolioGallery";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import testsData from "../../data/tests";
@@ -63,7 +61,7 @@ const DynamicPortfolioDetails = () => {
                 <div className="sc-title fst-italic position-relative">
                   Overview
                 </div>
-                <h2 className="main-title fw-500 tx-dark">About Rodpen</h2>
+                <h2 className="main-title fw-500 tx-dark"></h2>
               </div>
               {/* /.title-style-twelve */}
               <p data-aos="fade-up">
