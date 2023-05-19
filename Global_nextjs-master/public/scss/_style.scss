@@ -209,6 +209,40 @@ p {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.table {
+  font-size: 12px;
+  overflow-x: auto; 
+}
+
+.table td, th {
+  border: 1px solid #fff;
+  padding: 5px
+}
+
+.table td {
+  background-color: #00869d20;
+  color: #00869d;
+}
+
+.table th {
+  background-color: #6d7b84;
+  color: #fff;
+  border-radius: 0;
+  top: 0;
+  padding: 5px;
+}
+
+.table tr:hover {
+  background-color: #c1d7e6;
+}
+
+.table_heading {
+  background-color: #00869d20;
+  color: #00869d; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
 
 
 

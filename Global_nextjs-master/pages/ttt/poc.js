@@ -8,7 +8,6 @@ import Block from "../../components/services/Block";
 import Team1 from "../../components/team/Team1";
 import Link from "next/link";
 import Counter from "../../components/about/Counter";
-import Parameters from "../../components/portfolio/Parameters";
 
 const Poc = () => {
   const features = [
@@ -137,7 +136,6 @@ const Poc = () => {
         {/* /.container */}        
       </div>
 
-      <Parameters />
       <div className="team-section-two position-relative pt-200 lg-pt-120">
         <div className="container">
           <div className="wrapper position-relative">
