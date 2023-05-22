@@ -9,7 +9,6 @@ module.exports = [
     image: "/images/gallery/ferritin_test.png",
     projectInfo: {
       list: "Fast results | Easy visually interpretation | Simple operation, no equipment required | High accuracy",
-      image: "/images/gallery/ferritin_test_01.png"
     },
   },
   {

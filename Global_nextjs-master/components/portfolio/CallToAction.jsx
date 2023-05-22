@@ -14,10 +14,9 @@ const CallToAction = () => {
                 data-aos-delay="100"
               >
                 <h2 className="main-title fw-500 tx-dark">
-                  Have Any Project? <br />
+                  CTA question? <br />
                   <span className="position-relative">
-                    Let’s Talk{" "}
-                    <img src="/images/shape/shape_132.svg" alt="shape" />
+                    Give some text here {" "}
                   </span>
                   &amp; Grow your Business
                 </h2>

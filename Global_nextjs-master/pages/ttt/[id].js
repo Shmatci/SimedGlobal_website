@@ -8,7 +8,8 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import testsData from "../../data/tests";
 import TestsDetailsTitle from "../../components/portfolio/portfolio-details/TestsDetailsTitle";
-import Image from "next/image";
+import ProductSpec from "../../components/portfolio/portfolio-details/ProductSpec";
+import OrderingInfo from "../../components/portfolio/portfolio-details/OrderingInfo";
 
 const DynamicPortfolioDetails = () => {
   const router = useRouter();
@@ -31,7 +32,7 @@ const DynamicPortfolioDetails = () => {
         <div className="project-desctiption">
           <div className="container">
             <div className="row">
-              <div className="col-lg-8" data-aos="fade-right">
+              <div className="col-lg-8">
                 <ProjectSlide slide={portfolio} />
                 {/* /#gallery-carousel */}
               </div>
@@ -55,10 +56,7 @@ const DynamicPortfolioDetails = () => {
             {/* End .row */}
 
             <div className="col-xl-9  mt-120 lg-mt-80">
-              <div
-                className="title-style-twelve mb-45 lg-mb-30 wow fadeInUp"
-                data-aos="fade-up"
-              >
+              <div className="title-style-twelve mb-45 lg-mb-30 wow fadeInUp">
                 <div className="sc-title fst-italic position-relative">
                 PRODUCT SPECIFICATION
                 </div>
@@ -66,65 +64,20 @@ const DynamicPortfolioDetails = () => {
               </div>
               {/* /.title-style-twelve */}
               
-              <p data-aos="fade-up">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum magna quis
-                nostured.
-              </p>
-              <div className="row">
-                <div className="col-xl-8">
-                  <div
-                    className="title-style-twelve mb-45 pt-75 lg-pt-40 lg-mb-30 wow fadeInUp"
-                    data-aos="fade-up"
-                  >
-                    <div className="sc-title fst-italic position-relative">
-                      Work Proccess
-                    </div>
-                    <h2 className="main-title fw-500 tx-dark">
-                      Find out the design solution.
-                    </h2>
-                  </div>
-                  {/* /.title-style-twelve */}
-                </div>
+              <div>
+                <ProductSpec  />
               </div>
-              <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <p data-aos="fade-up">
-                Enim eu turpis egestas pretium aenean pharetra. Dui accumsan sit
-                amet nulla facilisi morbi tempus iaculis. Eu ultrices vitae
-                auctor eu augue. Sed turpis tincidunt id aliquet risus Purus in
-                massa tempor nec feugiat nisl pretium fusce. Feugiat vivamus at
-                augue eget arcu dictum. Gravida quis blandit turpis cursus in
-                hac habitasse platea dictumst.
-              </p>
 
               <div
                 className="title-style-twelve mb-45 mt-120 lg-mb-30 lg-mt-80 wow fadeInUp"
-                data-aos="fade-up"
               >
                 <div className="sc-title fst-italic position-relative">
-                  Work Proccess
+                ORDERING INFORMATION
                 </div>
-                <h2 className="main-title fw-500 tx-dark">Final Result</h2>
+                <div>
+                <OrderingInfo  />
               </div>
-              {/* /.title-style-twelve */}
-
-              <p data-aos="fade-up">
-                Content creators and human resources personnel are able to
-                seamlessly update the website through graphical interfaces, and
-                the site simply rebuilds itself along with search engine indexes
-                as the OpenWeb team continues to create.
-              </p>
-              <p data-aos="fade-up">
-                Enim eu turpis egestas pretium aenean pharetra. Dui accumsan sit
-                amet nulla facilisi mor tempu iaculis. Eu ultrices vitae auctor
-                eu augue. Sed turpis tincidunt id aliquet risus Purus in massa
-                tempor nec feugiat nisl pretium fusce. Feugiat vivamus at augue
-                eget arcu dictum. Gravida quis blandit turpis cursus in hac
-                habitasse platea dictumst.
-              </p>
+              </div>
             </div>
            
             {/* /.project-pagination */}
@@ -133,13 +86,6 @@ const DynamicPortfolioDetails = () => {
         </div>
         {/* /.project-desctiption */}
       </div>
-      {/* /.project-details */}
-
-      {/*
-			=====================================================
-				Fancy Short Banner Twelve
-			=====================================================
-			*/}
       <CallToAction />
       <DefaultFooter />
     </>
