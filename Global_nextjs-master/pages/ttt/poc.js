@@ -234,7 +234,8 @@ const Poc = () => {
                   {/* /.title-style-six */}
                   <div className="block-style-four" data-aos="fade-right">
                     <p className="fs-20 pt-10 lg-pb-20">
-                      &#x2022; Tests can be completed in community and primary care settings, such as clinics, pharmacies, <br /> &emsp;nursing homes and public facilities like health centres
+                      &#x2022; Tests can be completed in community and primary care settings, such as clinics, pharmacies, <br /> 
+                      &emsp;nursing homes and public facilities like health centres
                     </p>
                     <p className="fs-20 pt-10 lg-pb-20">
                       &#x2022; Eliminate time and costs as samples don’t have to be sent to labs for results
