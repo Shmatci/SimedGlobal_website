@@ -2,23 +2,23 @@ const accordionItems = [
   {
     id: 1,
     icon: "/images/icon/icon_108.svg",
-    title: "Lowest Price.",
+    title: "Something to say.",
     content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+      "lorem ipsum",
   },
   {
     id: 2,
     icon: "/images/icon/icon_109.svg",
-    title: "Fast Process & Loan",
+    title: "Something to say.",
     content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+      "Lorem ipsum",
   },
   {
     id: 3,
     icon: "/images/icon/icon_110.svg",
-    title: "Guaranteed Return & Claim",
+    title: "Something to say.",
     content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+      "Lorem ipsum.",
   },
 ];
 

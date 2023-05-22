@@ -3,7 +3,7 @@ const columns = [
     title: "Links",
     links: [
       { label: "Home", url: "/" },
-      { label: "About", url: "/about/about-us" },
+      { label: "About", url: "/about" },
       { label: "3T's", url: "/ttt" },
       { label: "Contact", url: "/contact" },
     ],

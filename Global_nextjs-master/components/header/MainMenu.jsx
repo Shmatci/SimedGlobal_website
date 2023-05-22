@@ -30,7 +30,7 @@ const MainMenu = () => {
           </li>
           {/* End li */}
 
-          <li className="nav-item dropdown mega-dropdown-md active">
+          <li className="nav-item dropdown mega-dropdown-md">
             <Link
               className="nav-link"
               href="/"
@@ -47,12 +47,12 @@ const MainMenu = () => {
           <li className="nav-item">
             <Link
               className="nav-link"
-              href="/about/about-us"
+              href="/about"
               role="button"
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              About
+              About Us
             </Link>
           </li>
           {/* End li (about page) */}

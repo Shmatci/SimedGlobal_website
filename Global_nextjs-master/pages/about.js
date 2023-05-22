@@ -1,19 +1,14 @@
-import Seo from "../../components/common/Seo";
-import DefaulHeader from "../../components/header/DefaulHeader";
-import DefaultFooter from "../../components/footer/DefaultFooter";
-import Partners from "../../components/services/Partners";
-import Faq from "../../components/services/Faq";
-import Testimonial from "../../components/home-page/home-3/Testimonial";
-import Block from "../../components/services/Block";
-import Team1 from "../../components/team/Team1";
+import Seo from "../components/common/Seo";
+import DefaulHeader from "../components/header/DefaulHeader";
+import DefaultFooter from "../components/footer/DefaultFooter";
+import Team1 from "../components/team/Team1";
 import Link from "next/link";
-import Counter from "../../components/about/Counter";
 
 const AboutUs = () => {
   const features = [
-    { text: "Amazing communication." },
-    { text: "Best trending designing experience." },
-    { text: "Email & Live chat." },
+    { text: "Something to say." },
+    { text: "Something to say." },
+    { text: "Something to say." },
   ];
 
   const starRating = Array(5)
@@ -153,7 +148,7 @@ const AboutUs = () => {
             
             <div className="text-center md-mt-20">
               <Link
-                href="/pages-menu/team-v1"
+                href="/full-team/team"
                 className="btn-twentyTwo fw-500 tran3s"
                 data-aos="fade-left"
               >
@@ -165,10 +160,6 @@ const AboutUs = () => {
         </div>
         {/* /.container */}
       </div>
-      
-        
-      
-
       <div
         className="fancy-short-banner-sixteen mt-130 lg-mt-80"
         data-aos="fade-up"

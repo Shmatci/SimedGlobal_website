@@ -29,6 +29,7 @@ const Hero1 = () => {
           </div>
         </div>
       </div>
+      {/*
       <Image 
         width={487}
         height={649}
@@ -44,7 +45,7 @@ const Hero1 = () => {
         alt="background"      
         className="lazy-img illustration-two"
         data-aos="fade-right"
-        />
+        /> */}
       {/* End .container */}
     </div>
   );

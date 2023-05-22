@@ -7,7 +7,7 @@ import CallToAction from "../../components/team/CallToAction";
 const TeamV1 = () => {
   return (
     <>
-      <Seo pageTitle="Team V1" />
+      <Seo pageTitle="Our Team" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -29,24 +29,13 @@ const TeamV1 = () => {
                   Our Team
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  World most qualified team member.
+                  Simed Global proudly presents:
                 </h2>
               </div>
             </div>
           </div>
         </div>
         {/* /.container */}
-
-        <img
-          src="/images/shape/shape_172.svg"
-          alt="shap"
-          className="lazy-img shapes shape-two"
-        />
-        <img
-          src="/images/shape/shape_175.svg"
-          alt="shap"
-          className="lazy-img shapes shape-three"
-        />
       </div>
 
       {/*
@@ -60,9 +49,6 @@ const TeamV1 = () => {
             <div className="row">
               <Team1 />
             </div>
-            {/* /.row */}
-
-            <CallToAction />
             {/* End  call to action*/}
           </div>
           {/* /.wrapper */}

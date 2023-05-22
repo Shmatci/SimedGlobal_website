@@ -11,9 +11,9 @@ import Counter from "../../components/about/Counter";
 
 const Poc = () => {
   const features = [
-    { text: "Amazing communication." },
-    { text: "Best trending designing experience." },
-    { text: "Email & Live chat." },
+    { text: "Say something." },
+    { text: "Say something." },
+    { text: "Say something." },
   ];
 
   const starRating = Array(5)
@@ -26,7 +26,7 @@ const Poc = () => {
 
   return (
     <>
-      <Seo pageTitle="About Us" />
+      <Seo pageTitle="POC Blood Tests" />
       <DefaulHeader />
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
@@ -34,11 +34,14 @@ const Poc = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  More About us.
+                  Point of Care
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Our mission is to bring the best life saving technologies to the global market.
+                RAPID IN-HOUSE BLOOD TEST FOR <strong>POC INSTANT HEALTH CHECKS</strong>
                 </h2>
+                <p className="text-md tx-dark">
+                Simed Global specialise in fast effective testing devices and solutions, <br />what we call the 3T’s Tomorrows Technology Today
+                </p>
               </div>
             </div>
           </div>
@@ -47,11 +50,11 @@ const Poc = () => {
               <div className="ps-xxl-5" data-aos="fade-left">
                 <h6 className="mb-30">Our Goal.</h6>
                 <p className="text-lg tx-dark">
-                Developing our own technology and working closely with early stage Medical Device 
-                start ups, Simed Global turns innovative ideas into significant technologies with 
-                a global reach. Our mission is to bring the best life saving technologies to the 
-                global market. Our commitment is to continuously identify, invest and work closely 
-                with our partners to produce outstanding results for them and our investors.
+                As the healthcare landscape continues to evolve, accessible and convenient options for 
+                individuals to receive health screenings is increasingly being recognised.<br /> Pharmacies, 
+                Diagnostic Centers and Clinics in community settings will play an increasingly important 
+                role in the provision of health services in the coming years and Simed Global have the solution
+                for you to easily become part of this.
                 </p>
               </div>
             </div>
@@ -74,18 +77,13 @@ const Poc = () => {
                 data-aos="fade-right"
               >
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">WHY US</div>
+                  <div className="sc-title-two text-uppercase">SOLUTION</div>
                   <h2 className="main-title fw-500 tx-dark">
-                  Your ideal partner
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
                 <p className="fs-20 pt-20 pb-30 lg-pt-10 lg-pb-20">
-                Made up of passionate, dedicated professionals our team has extensive 
-                connections and expertise in regulatory affairs and compliance to technical 
-                know-how, operations and marketing, distribution, sales and strategic proficiency. <br />
-                This approach, combined with access to <strong>Simed Global’s</strong> extensive worldwide network, 
-                provides companies with unparalleled opportunities for growth and success.
+                Our solution has 5 key elements to ensure minimum disruption for maximum impact.
                 </p>
                 <ul className="style-none list-item">
                   {features.map((feature, index) => (
