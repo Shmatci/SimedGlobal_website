@@ -26,10 +26,6 @@ const ProjectSlide = ({ slide }) => {
           </div>
         ))}
       </div>
-      {/* End carousel-inner */}
-
-      
-      {/* End next */}
     </div>
   );
 };

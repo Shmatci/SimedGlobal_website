@@ -23,6 +23,7 @@ const HomePage = () => {
         </div>
         {/* <!-- /.container --> */}
       </div>
+
       <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
         <div className="container" data-aos="fade-up">
           <Banner />
@@ -30,6 +31,7 @@ const HomePage = () => {
         </div>
         {/* End .container */}        
       </div>
+      {/* 
       <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
         <div className="container">
           <div className="row">
@@ -45,18 +47,16 @@ const HomePage = () => {
                   </h2>
                 </div>
                 <WhyChoose />
-                {/* /.accordion-style-five */}
               </div>
             </div>
-            {/* End .col-6 */}
 
             <div className="col-xxl-5 col-lg-6 order-lg-first">
               <Block />
             </div>
           </div>
         </div>
-        {/* /.container */}
       </div>
+    */}
       
       <div
         className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
@@ -71,12 +71,11 @@ const HomePage = () => {
                     <div className="text-wrapper">
                       <div className="title-style-one">
                         <h2 className="main-title fw-500 tx-dark m0">
-                          Let’s talk with expereince advisors.
+                          Let’s talk with experience advisors.
                         </h2>
                       </div>
                       <p className="fs-20 tx-dark pt-20 m0">
-                        eiusmod tempor incididunt. Ut enim mim veniam, quis
-                        nostrud elit lorem dolor.
+                        Get in contact today by sendind us your message.
                       </p>
                     </div>
                   </div>

@@ -34,7 +34,6 @@ const DynamicPortfolioDetails = () => {
             <div className="row">
               <div className="col-lg-8">
                 <ProjectSlide slide={portfolio} />
-                {/* /#gallery-carousel */}
               </div>
               {/* End .col-lg-8 */}
 
@@ -56,7 +55,8 @@ const DynamicPortfolioDetails = () => {
             {/* End .row */}
 
             <div className="col-xl-9  mt-120 lg-mt-80">
-              <div className="title-style-twelve mb-45 lg-mb-30 wow fadeInUp">
+              <div className="title-style-twelve mb-45 lg-mb-30 wow fadeInUp"
+              >
                 <div className="sc-title fst-italic position-relative">
                 PRODUCT SPECIFICATION
                 </div>
@@ -86,7 +86,41 @@ const DynamicPortfolioDetails = () => {
         </div>
         {/* /.project-desctiption */}
       </div>
-      <CallToAction />
+      <div
+        className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 ">
+        <div className="container">
+          <div className="bg-wrapper zn2 bg-white position-relative">
+            <div className="row">
+              <div className="col-xl-11 m-auto">
+                <div className="row align-items-center">
+                  <div className="col-lg-6 ms-auto order-lg-last">
+                    <div className="text-wrapper">
+                      <div className="title-style-one">
+                        <h2 className="main-title fw-500 tx-dark m0">
+                          Would you like to order?
+                        </h2>
+                      </div>
+                      <p className="fs-20 tx-dark pt-20 m0">
+                        Get in contact with one of our advisors for more information about ordering.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-xl-5 col-lg-6 order-lg-first">
+                    <div className="form-style-two md-mb-40">
+                      <CallToAction />
+                    </div>
+                    {/* /.form-style-two */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* End .row */}
+
+            
+          </div>
+          {/* /.bg-wrapper */}
+        </div>
+      </div>
       <DefaultFooter />
     </>
   );

@@ -5,7 +5,7 @@ const teamMembers = [
     id: 1,
     name: "Simon Maurer",
     role: "Founder",
-    imgSrc: "/images/team/Simon.jpg",
+    imgSrc: "/images/team/SimonM.jpg",
   },
   {
     id: 2,

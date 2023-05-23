@@ -10,7 +10,7 @@ const Feature = () => {
         </>
       ),
       description: "Regulatory Issues",
-      icon: "images/icon/icon_100.svg",
+      icon: "images/icon/icon_18.svg",
       width: "129",
       height: "165",
       delay: "100",

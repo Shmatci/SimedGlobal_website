@@ -1,48 +1,86 @@
-import Link from "next/link";
-import React from "react";
+import { useState } from "react";
 
 const CallToAction = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(formData);
+    // You can add your form submission logic here
+  };
+
   return (
-    <div className="fancy-short-banner-twelve position-relative zn2 pt-160 lg-pt-80">
-      <div className="container">
-        <div className="border-bottom pb-140 lg-pb-80">
-          <div className="row">
-            <div className="col-xxl-9 col-xl-10 m-auto text-center">
-              <div
-                className="title-style-ten wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <h2 className="main-title fw-500 tx-dark">
-                  CTA question? <br />
-                  <span className="position-relative">
-                    Give some text here {" "}
-                  </span>
-                  &amp; Grow your Business
-                </h2>
-              </div>
-              {/* /.title-style-ten */}
-              <p
-                className="text-lg mt-45 mb-55 lg-mb-30 lg-mt-40"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                We’r ready to help you. Our expert is here, just send a message.
-              </p>
-              <Link
-                href="/contact"
-                className="btn-twenty fw-500 tran3s"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                Send Message
-              </Link>
-            </div>
+    <form onSubmit={handleSubmit}>
+      <div className="messages" />
+      <div className="row controls">
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-20">
+            <input
+              type="text"
+              placeholder="Your name*"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+            <div className="help-block with-errors" />
           </div>
         </div>
+        {/* End .col-12 */}
+
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-20">
+            <input
+              type="email"
+              placeholder="Email*"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+            <div className="help-block with-errors" />
+          </div>
+        </div>
+        {/* End .col-12 */}
+
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-15">
+            <textarea
+              placeholder="Your message*"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+            />
+            <div className="help-block with-errors" />
+          </div>
+        </div>
+        {/* End .col-12 */}
+
+        <div className="col-12">
+          <button
+            type="submit"
+            className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase"
+          >
+            SEND MESSAGE
+          </button>
+        </div>
+        {/* End .col-12 */}
       </div>
-      <div className="shapes shape-one" />
-    </div>
+      {/* End .row */}
+    </form>
   );
 };
 

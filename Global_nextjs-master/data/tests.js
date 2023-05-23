@@ -23,7 +23,7 @@ module.exports = [
       list: "Fast results, Easy visually interpretation, Simple operation, no equipment required, High accuracy"
     },
   },
-  {
+  { 
     id: 3,
     category: "Self Health Tests",
     name: "SARS-CoV-2 and Influenza A+B Test",
@@ -99,7 +99,7 @@ module.exports = [
     fullName: "Early Detection hCG Pregnancy Test Midstream (Urine)",
     about: "is a rapid chromatographic immunoassay for the qualitative detection of human chorionic gonadotropin in urine to aid in the early detection of pregnancy.",
     tag: "Simed Health",
-    image: "/images/gallery/Early_pregnancy_test.png",
+    image: "/images/gallery/early_pregnancy_test.png",
   },
   {
     id: 11,

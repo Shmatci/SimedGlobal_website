@@ -21,14 +21,21 @@ const Hero1 = () => {
             </h1>
             <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
             Our mission is to bring world beating – 
-            life changing IVD medical devices to the market to allow instant screening for illnesses in the population.
+            life changing IVD <strong>medical devices</strong> to the market to allow instant screening for illnesses in the population.
             </p>
-            <p className="text-m tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
+            <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
             We continuously research, innovate, and create new ways to improve medical diagnostics solutions together with our partners and investors.
             </p>
-          </div>
+          </div>          
         </div>
       </div>
+        <Image
+              width={129}
+              height={175}
+              src="/images/icon/arrow-down.svg"
+              alt="icon"
+              className="position-absolute"
+            />
       {/*
       <Image 
         width={487}

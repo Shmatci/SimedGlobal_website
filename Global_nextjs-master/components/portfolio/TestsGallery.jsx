@@ -25,7 +25,7 @@ const TestsGallery = () => {
               >
                 <div className="portfolio-block-five hvr-shutter-out mb-50 lg-mb-30">
                   <div className="img-meta position-relative">
-                    <a href={`/ttt/tests/${item.name}`}>
+                    <a href={`/ttt/${item.name}`}>
                       <Image
                         width={410}
                         height={380}
