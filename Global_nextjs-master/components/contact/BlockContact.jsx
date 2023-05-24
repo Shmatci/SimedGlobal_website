@@ -7,13 +7,15 @@ const BlockContact = () => {
       title: "London, UK",
       content: "341 Regents Park Road, N3 1DP",
       link: "tel:+44 20 8343 4884",
+      mail: "info@simedglobal.com",
       delay: "100",
     },
     {
       icon: "/images/icon/icon_147.svg",
       title: "Liverpool, UK",
       content: "1 Pacific Road, CH41 1LJ",
-      link: "tel:+44 20 151 305 3188",
+      link: "tel:+44 151 305 3188",
+      mail: "info@simedglobal.com",
       delay: "100",
     },
     {
@@ -21,7 +23,7 @@ const BlockContact = () => {
       title: "Dublin, UK",
       content: "Northwood Court, DO9 T266",
       link: "tel:+44 151 305 3188",
-      link: "info@simedglobal.com",
+      mail: "info@simedglobal.com",
       delay: "100",
     },
   ];
@@ -51,7 +53,12 @@ const BlockContact = () => {
                 >
                   {block.link.replace("tel:", "")}
                 </a>
-              )}
+              )}<br />
+              <a
+                href={"mailto:" + block.mail}
+              >
+                {block.mail}
+              </a>
             </p>
           </div>
         </div>

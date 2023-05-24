@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -23,7 +24,8 @@ const Hero = () => {
                 </span><br />
                 non-invasive, health screening solutions to the market.
               </h1>
-              <p className="text-lg mb-75 pt-20 lg-mb-50 lg-pt-10">
+
+              <p className="text-lg mb-75 mt-150 pt-20 lg-mb-50 lg-pt-10">
               All our devices and tests significantly reduce costs, whilst providing valuable information for patients and 
               physicians in a timely manner, to prevent disease progression and potentially save lives.
               </p>
@@ -31,8 +33,6 @@ const Hero = () => {
             </div>
           </div>
           {/* End .row */}
-
-          
         </div>
         {/* /.container */}
       </div>

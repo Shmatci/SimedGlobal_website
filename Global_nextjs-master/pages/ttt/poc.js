@@ -6,7 +6,7 @@ import Devices from "../../components/devices/devices";
 import Image from "next/image";
 
 const Poc = () => {
-  const features = [
+  const solutions = [
     { text: "Mobile POC device" },
     { text: "No need for Phlebotomist" },
     { text: "CQC Doctor reviewed results" },
@@ -37,14 +37,14 @@ const Poc = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7" data-aos="fade-right">
+            <div className="col-lg-12 mb-100" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
                   Point of Care
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  RAPID IN-HOUSE BLOOD TEST FOR{" "}
-                  <strong>POC INSTANT HEALTH CHECKS</strong>
+                  Rapid in-house blood test for{" "}
+                  <strong>POC instant health checks</strong>
                 </h2>
                 <p className="text-md tx-dark">
                   Simed Global specialise in fast effective testing devices and
@@ -57,7 +57,7 @@ const Poc = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-9 ms-auto">
               <div className="ps-xxl-5" data-aos="fade-left">
-                <h6 className="mb-30">Our Goal.</h6>
+                <h6 className="mb-30 mt-300">Our Goal.</h6>
                 <p className="text-lg tx-dark">
                   As the healthcare landscape continues to evolve, accessible
                   and convenient options for individuals to receive health
@@ -97,9 +97,9 @@ const Poc = () => {
                   Our solution has 5 key elements to ensure minimum disruption
                   for maximum impact.
                 </p>
-                <ul className="style-none list-item">
-                  {features.map((feature, index) => (
-                    <li key={index}>{feature.text}</li>
+                <ul className="style-none list-item ">
+                  {solutions.map((solution, index) => (
+                    <li key={index}>{solution.text}</li>
                   ))}
                 </ul>
               </div>
@@ -132,13 +132,11 @@ const Poc = () => {
                 <div className="row pb-60 ">
                   <Devices />
                 </div>
-                <div className="text-center">
-                  <ul className="style-none list-item">
+                  <ul className="style-none list-item ">
                     {devices.map((device, index) => (
                       <li key={index}>{device.text}</li>
                     ))}
                   </ul>
-                </div>
               </div>
               {/* /.block-style-four */}
             </div>

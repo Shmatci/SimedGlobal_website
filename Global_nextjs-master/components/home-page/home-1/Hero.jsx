@@ -13,17 +13,16 @@ const Hero1 = () => {
       <div className="container" >
         <div className="row">
           <div
-            className="col-lg-9 col-md-10 m-auto text-center"
+            className="col-lg-12 col-md-10 m-auto"
             data-aos="fade-up"
           >
             <h1 className="hero-heading fw-500 tx-dark">
-            At <span>Simed Global</span>
+            <span>- Simed Global</span>
             </h1>
             <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
-            Our mission is to bring world beating – 
-            life changing IVD <strong>medical devices</strong> to the market to allow instant screening for illnesses in the population.
-            </p>
-            <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
+            At Simed Global our mission is to bring world beating
+            – life changing IVD <strong>medical devices</strong> to the 
+            market to allow instant screening for illnesses in the population.
             We continuously research, innovate, and create new ways to improve medical diagnostics solutions together with our partners and investors.
             </p>
           </div>          
@@ -32,7 +31,7 @@ const Hero1 = () => {
         <Image
               width={129}
               height={175}
-              src="/images/icon/arrow-down.svg"
+              src="/images/icon/icon_50.svg"
               alt="icon"
               className="position-absolute"
             />

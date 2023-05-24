@@ -8,6 +8,7 @@ import ContactForm from "../../components/home-page/home-1/ContactForm";
 import Feature from "../../components/home-page/home-1/Feature";
 import Hero from "../../components/home-page/home-1/Hero";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
+import PopUp from "../../components/common/Popup";
 
 const HomePage = () => {
   return (
@@ -24,14 +25,14 @@ const HomePage = () => {
         {/* <!-- /.container --> */}
       </div>
 
-      <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
+      <div className="fancy-feature-thirtyFive mt-150 md-mt-70">
         <div className="container" data-aos="fade-up">
           <Banner />
+
           {/* /.top-banner */}
         </div>
         {/* End .container */}        
       </div>
-      {/* 
       <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
         <div className="container">
           <div className="row">
@@ -56,7 +57,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    */}
       
       <div
         className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
@@ -75,7 +75,7 @@ const HomePage = () => {
                         </h2>
                       </div>
                       <p className="fs-20 tx-dark pt-20 m0">
-                        Get in contact today by sendind us your message.
+                        Get in contact today by sending us your message.
                       </p>
                     </div>
                   </div>

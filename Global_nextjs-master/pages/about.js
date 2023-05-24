@@ -82,11 +82,13 @@ const AboutUs = () => {
                 This approach, combined with access to <strong>Simed Global’s</strong> extensive worldwide network, 
                 provides companies with unparalleled opportunities for growth and success.
                 </p>
+                {/* 
                 <ul className="style-none list-item">
                   {features.map((feature, index) => (
                     <li key={index}>{feature.text}</li>
                   ))}
                 </ul>
+                */}
                
               </div>
             </div>

@@ -9,12 +9,6 @@ const contact = () => {
     <>
       <Seo pageTitle="Contact" />
       <DefaulHeader />
-
-      {/* 
-        =============================================
-        Feature Section Fifty One
-        ============================================== 
-        */}
       <div className="fancy-feature-fiftyOne position-relative mt-250 lg-mt-150">
         <div className="container">
           <div className="row">
@@ -30,12 +24,6 @@ const contact = () => {
         </div>
         {/* /.container */}
       </div>
-
-      {/* 
-        =============================================
-        Contact Section One
-        ============================================== 
-        */}
       <div className="contact-section-one mt-60 lg-mt-30">
         <div className="container">
           <div className="row">

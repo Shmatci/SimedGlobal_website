@@ -13,7 +13,7 @@ const Ttt = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-250 lg-mt-150">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7 text-center m-auto wow fadeInUp">
+            <div className="col-lg-12 m-auto wow fadeInUp">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
                   3T&apos;s

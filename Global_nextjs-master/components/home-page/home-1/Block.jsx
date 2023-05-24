@@ -11,7 +11,7 @@ const Block = () => {
         </div>
         <div className="col-md-7 col-sm-8 wow fadeInDown">
           <div className="block-wrapper block-one">
-            <h3 style={{ color: "#FFAE10" }}>Something</h3>
+            <h3 style={{ color: "#00869d" }}>Something</h3>
             <p>Something to say &amp; about our company</p>
           </div>
           {/* /.block-wrapper */}
@@ -22,7 +22,7 @@ const Block = () => {
       <div className="row gx-xxl-5" data-aos="fade-down">
         <div className="col-sm-7 wow fadeInDown">
           <div className="block-wrapper block-two position-relative mt-50 sm-mt-30">
-            <h3 style={{ color: "#9650EF" }}>
+            <h3 style={{ color: "#00869d" }}>
               1st <br />
               <span>in the UK</span>
             </h3>
@@ -37,7 +37,7 @@ const Block = () => {
 
         <div className="col-sm-5 wow fadeInUp">
           <div className="block-wrapper block-three mt-50 sm-mt-30">
-            <h3 style={{ color: "#00BDE6" }}>
+            <h3 style={{ color: "#00869d" }}>
               <span>Again</span>
             </h3>
             <p>Say something.</p>
