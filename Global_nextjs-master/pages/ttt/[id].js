@@ -106,7 +106,7 @@ const DynamicPortfolioDetails = () => {
                     </div>
                   </div>
                   <div className="col-xl-5 col-lg-6 order-lg-first">
-                    <div className="form-style-two md-mb-40">
+                    <div className="form-style-two md-mb-60">
                       <CallToAction />
                     </div>
                     {/* /.form-style-two */}

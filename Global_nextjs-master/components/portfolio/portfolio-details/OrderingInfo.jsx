@@ -19,7 +19,7 @@ const ProductSpec = () => {
     <div className="portfolio-details-two pt-20 pb-50 lg-pb-10 md-pt-10">
       <div className="project-desctiption">
         <div className="container">
-            <div className="col-lg-12">
+            <div className="col-lg-12 rounded-3">
               <ProjectSlide slide={orderInfo} />
             </div>
         </div>

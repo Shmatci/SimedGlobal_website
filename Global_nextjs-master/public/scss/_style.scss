@@ -118,6 +118,27 @@
 
 /*** 
 ====================================================================
+  Image Background
+====================================================================
+
+ ***/
+
+.image-bckg {
+  background-image: url('/images/assets/01.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+}
+
+
+
+
+/*** 
+====================================================================
   Loading Transition
 ====================================================================
 

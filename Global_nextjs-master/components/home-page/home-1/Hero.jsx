@@ -2,12 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 const Hero1 = () => {
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // handle form submission
-  };
-
   return (
     <div className="image-bckg hero-banner-ten position-relative zn2">
       <div className="container" >

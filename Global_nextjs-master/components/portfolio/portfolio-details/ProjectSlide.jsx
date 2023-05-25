@@ -20,7 +20,7 @@ const ProjectSlide = ({ slide }) => {
               height={654}
               layout="responsive"
               src={image}
-              className="d-block w-100"
+              className="d-block w-100 rounded-3"
               alt="media"
             />
           </div>
