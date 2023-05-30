@@ -49,13 +49,10 @@ const TeamV1 = () => {
             <div className="row">
               <Team />
             </div>
-            {/* End  call to action*/}
           </div>
-          {/* /.wrapper */}
         </div>
-        {/* /.container */}
       </div>
-      {/* /.team-section-two */}
+
 
       {/* 
         =============================================
