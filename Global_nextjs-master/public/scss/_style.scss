@@ -1099,7 +1099,7 @@ body .btn-twentyTwo:hover {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Menu ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .theme-menu-one.theme-main-menu {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .theme-main-menu {
   position: absolute;
@@ -1482,6 +1482,10 @@ body .btn-twentyTwo:hover {
 
 .white-vr.theme-main-menu.sticky-menu.fixed {
   background: #090f32;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #00869d!important;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Menu Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .theme-menu-four .inner-content {

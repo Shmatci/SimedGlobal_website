@@ -18,7 +18,7 @@ const Intro = () => {
       </div>
       <div className="title-style-eleven mb-40">
         <h2 className="main-title tx-dark">
-        We also have our own full range of <br /> <a href="../ttt/selfHealthTests" className="text-decoration-underline"><strong>Self Health Home Tests</strong></a>.
+        We also have our own full range of <a href="../ttt/selfHealthTests" className="text-decoration-underline"><strong>Self Health Home Tests</strong></a>.
         </h2>
       </div>
       <div className="d-flex mt-70 mb-60 lg-mt-40 lg-mb-10">

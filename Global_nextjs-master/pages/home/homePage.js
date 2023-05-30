@@ -20,16 +20,12 @@ const HomePage = () => {
             <Feature />
           </div>
         </div>
-        {/* <!-- /.container --> */}
       </div>
 
       <div className="fancy-feature-thirtyFive mt-150 md-mt-70">
         <div className="container" data-aos="fade-up">
           <Banner />
-
-          {/* /.top-banner */}
-        </div>
-        {/* End .container */}        
+        </div>  
       </div>
       <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
         <div className="container">
@@ -81,16 +77,11 @@ const HomePage = () => {
                     <div className="form-style-two md-mb-40">
                       <ContactForm />
                     </div>
-                    {/* /.form-style-two */}
                   </div>
                 </div>
               </div>
-            </div>
-            {/* End .row */}
-
-            
+            </div>            
           </div>
-          {/* /.bg-wrapper */}
         </div>
       </div>
       <DefaultFooter />

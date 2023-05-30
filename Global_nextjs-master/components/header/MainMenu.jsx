@@ -18,7 +18,6 @@ const MainMenu = () => {
       >
         <span />
       </button>
-      {/* End mobile collapse menu */}
 
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
@@ -29,7 +28,6 @@ const MainMenu = () => {
               </Link>
             </div>
           </li>
-          {/* End li */}
 
           <li className="nav-item dropdown mega-dropdown-md">
             <Link
@@ -43,7 +41,6 @@ const MainMenu = () => {
             </Link>
             
           </li>
-          {/* End li (home mega menu) */}
 
           <li className="nav-item">
             <Link
@@ -56,7 +53,6 @@ const MainMenu = () => {
               About Us
             </Link>
           </li>
-          {/* End li (about page) */}
 
           <li className="nav-item dropdown">
             <Link
@@ -78,16 +74,13 @@ const MainMenu = () => {
               ))}
             </ul>
           </li>
-          {/* End li (ttt) */}
 
           <li className="nav-item">
             <Link className="nav-link" href="/contact" role="button">
               Contact
             </Link>
           </li>
-          {/* End li (contact) */}
         </ul>
-        {/* End ul */}
       </div>
     </nav>
   );

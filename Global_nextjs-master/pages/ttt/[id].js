@@ -35,7 +35,6 @@ const DynamicPortfolioDetails = () => {
               <div className="col-lg-8">
                 <ProjectSlide slide={portfolio} />
               </div>
-              {/* End .col-lg-8 */}
 
               <div className="col-lg-4" data-aos="fade-left">
                 <div className="sidebar ms-xl-5">
@@ -46,14 +45,10 @@ const DynamicPortfolioDetails = () => {
                   <div className="row">
                     <ProjectDetails details={portfolio} />
                   </div>
-                  {/* End .row */}
 
                 </div>
               </div>
-              {/* End col-lg-4 */}
             </div>
-            {/* End .row */}
-
             <div className="col-xl-9  mt-120 lg-mt-80">
               <div className="title-style-twelve mb-45 lg-mb-30 wow fadeInUp"
               >
@@ -62,7 +57,6 @@ const DynamicPortfolioDetails = () => {
                 </div>
                 <h2 className="main-title fw-500 tx-dark"></h2>
               </div>
-              {/* /.title-style-twelve */}
               
               <div>
                 <ProductSpec  />
@@ -80,11 +74,8 @@ const DynamicPortfolioDetails = () => {
               </div>
             </div>
            
-            {/* /.project-pagination */}
           </div>
-          {/* End .container */}
         </div>
-        {/* /.project-desctiption */}
       </div>
       <div
         className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 ">
@@ -109,16 +100,11 @@ const DynamicPortfolioDetails = () => {
                     <div className="form-style-two md-mb-60">
                       <CallToAction />
                     </div>
-                    {/* /.form-style-two */}
                   </div>
                 </div>
               </div>
             </div>
-            {/* End .row */}
-
-            
           </div>
-          {/* /.bg-wrapper */}
         </div>
       </div>
       <DefaultFooter />

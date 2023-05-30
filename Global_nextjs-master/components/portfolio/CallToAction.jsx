@@ -69,12 +69,12 @@ const CallToAction = () => {
         </div>
         {/* End .col-12 */}
 
-        <div className="col-12">
+        <div className="col-4">
           <button
             type="submit"
             className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase"
           >
-            SEND MESSAGE
+            SEND
           </button>
         </div>
         {/* End .col-12 */}

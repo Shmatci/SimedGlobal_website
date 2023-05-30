@@ -4,9 +4,9 @@ const accordionItems = [
   {
     id: 1,
     icon: "/images/icon/icon_108.svg",
-    title: "Something to say.",
+    title: "Someone from somewhere.",
     content:
-      "lorem ipsum",
+      "Someone said that we are professional business ready for any action.",
   },
   {
     id: 2,

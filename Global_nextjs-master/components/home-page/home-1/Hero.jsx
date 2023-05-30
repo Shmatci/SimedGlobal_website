@@ -18,6 +18,7 @@ const Hero1 = () => {
             </p>
           </div> 
           <div className="col-12 down-arrow">
+            
             <Image
                   width={39}
                   height={75}
