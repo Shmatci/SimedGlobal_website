@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import Team1 from "../../components/team/Team1";
+import Team from "../../components/team/Team";
 import CallToAction from "../../components/team/CallToAction";
 
 const TeamV1 = () => {
@@ -47,7 +47,7 @@ const TeamV1 = () => {
         <div className="container">
           <div className="wrapper border-bottom pb-120 lg-pb-80 position-relative">
             <div className="row">
-              <Team1 />
+              <Team />
             </div>
             {/* End  call to action*/}
           </div>
