@@ -1,8 +1,9 @@
 import Seo from "../components/common/Seo";
 import DefaulHeader from "../components/header/DefaulHeader";
 import DefaultFooter from "../components/footer/DefaultFooter";
-import Team1 from "../components/team/Team1";
+import Team from "../components/team/Team";
 import Link from "next/link";
+import Image from "next/image";
 
 const AboutUs = () => {
   const features = [
@@ -54,10 +55,12 @@ const AboutUs = () => {
         </div>
         {/* /.container */}
 
-        <img
+        <Image
           src="/images/shape/shape_171.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
+          width={200}
+          height={200}
         />
       </div>
       <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
@@ -145,7 +148,7 @@ const AboutUs = () => {
             </div>
             {/* /.row */}
             <div className="row">
-              <Team1 />
+              <Team />
             </div>
             
             <div className="text-center md-mt-20">

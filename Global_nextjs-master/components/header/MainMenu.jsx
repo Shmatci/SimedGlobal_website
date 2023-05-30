@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { tttItems } from "../../data/menu";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const MainMenu = () => {
   const router = useRouter();
@@ -24,7 +25,7 @@ const MainMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <img src="/images/logo/logo_01.png" alt="" width={95} />
+                <Image src="/images/logo/main_logo.png" alt="" width={95} height={40}/>
               </Link>
             </div>
           </li>

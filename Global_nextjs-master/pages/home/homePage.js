@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Seo from "../../components/common/Seo";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import DefaulHeader from "../../components/header/DefaulHeader";
@@ -8,7 +7,6 @@ import ContactForm from "../../components/home-page/home-1/ContactForm";
 import Feature from "../../components/home-page/home-1/Feature";
 import Hero from "../../components/home-page/home-1/Hero";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
-import PopUp from "../../components/common/Popup";
 
 const HomePage = () => {
   return (
@@ -44,7 +42,7 @@ const HomePage = () => {
                 <div className="title-style-one mb-40">
                   <div className="sc-title text-uppercase">Why Choose Us</div>
                   <h2 className="main-title fw-500 tx-dark m0">
-                    What makes us the best.
+                    What our clients have to say about us.
                   </h2>
                 </div>
                 <WhyChoose />
@@ -95,13 +93,6 @@ const HomePage = () => {
           {/* /.bg-wrapper */}
         </div>
       </div>
-      
-      {/*
-			=====================================================
-				Footer
-			=====================================================
-			*/}
-          
       <DefaultFooter />
     </>
   );

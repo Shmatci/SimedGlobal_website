@@ -5,7 +5,7 @@ const teamMembers = [
     id: 1,
     name: "Simon Maurer",
     role: "Founder",
-    imgSrc: "/images/team/SimonM.jpg",
+    imgSrc: "/images/team/Simon.jpg",
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ const teamMembers = [
   },
 ];
 
-const Team1 = () => {
+const Team = () => {
   return (
     <>
       {teamMembers.map((member) => (
@@ -80,16 +80,12 @@ const Team1 = () => {
                 <h5 className="tx-dark fs-20 mb-5">{member.name}</h5>
                 <div className="tx-dark opacity-75">{member.role}</div>
               </div>
-              {/* /.info */}
             </div>
-            {/* /.img-meta */}
           </div>
-          {/* /.team-block-two */}
         </div>
-        /* End .col-3 */
       ))}
     </>
   );
 };
 
-export default Team1;
+export default Team;

@@ -109,7 +109,7 @@
 	animation-delay:-0.5s;
 	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
 }
-
+d
 .arrows path.a3 {	
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
@@ -128,11 +128,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 110px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height:100%;
+  height: 120%;
 }
+
+
 
 
 
@@ -4416,8 +4419,6 @@ body .btn-twentyTwo:hover {
   top: -5%;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Eighteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.fancy-feature-eighteen {
-}
 .card-style-nine {
   height: 430px;
   width: 33.3333%;
@@ -6758,9 +6759,8 @@ body .btn-twentyTwo:hover {
   top: -40px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Ten ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.hero-banner-ten {
-  
-  padding: 230px 0 90px;
+.hero-banner-ten {  
+  padding: 200px 0 90px;
 }
 .hero-banner-ten .hero-heading p {
   text-align: left;

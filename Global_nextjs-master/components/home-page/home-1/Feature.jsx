@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from 'framer-motion'
 
 const Feature = () => {
   const features = [
@@ -55,11 +56,21 @@ const Feature = () => {
   return (
     <>
       {features.map((feature, index) => (
-        <div
+        <motion.div
           className="col-lg-6 col-sm-6"
           key={index}
           data-aos="fade-up"
           data-aos-delay={feature.delay}
+          whileHover={
+            {
+              position: 'relative',
+              zIndex: 1,
+              scale: 1.2,
+              transition: {
+                duration: 0.2
+              }
+            }
+          }
         >
           <div
             className={`card-style-fifteen tran3s position-relative mt-35`}
@@ -69,7 +80,7 @@ const Feature = () => {
             <p>{feature.description}</p>
           </div>{" "}
           {/* /.card-style-fifteen */}
-        </div>
+        </motion.div>
       ))}
     </>
   );

@@ -1,9 +1,8 @@
 import Seo from "../components/common/Seo";
 import DefaultFooter from "../components/footer/DefaultFooter";
 import DefaulHeader from "../components/header/DefaulHeader";
-import FancyBlock from "../components/home-page/home-2/FancyBlock";
-import Hero from '../components/home-page/home-6/Hero'
-import Intro from '../components/home-page/home-5/about/Intro'
+import Hero from '../components/home-page/home-4/Hero'
+import Intro from '../components/home-page/home-4/Intro'
 
 const Ttt = () => {
   return (
@@ -38,13 +37,7 @@ const Ttt = () => {
             <Intro />
           </div>
         </div>
-
-        {/* End .container */}
-
-        
       </div>
-
-
       <DefaultFooter />
     </>
   );

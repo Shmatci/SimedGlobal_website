@@ -6,10 +6,7 @@ const Hero1 = () => {
     <div className="image-bckg hero-banner-ten position-relative zn2">
       <div className="container" >
         <div className="row">
-          <div
-            className="col-lg-12 col-md-10 m-auto"
-            data-aos="fade-up"
-          >
+          <div className="col-lg-12 col-md-10 m-auto" data-aos="fade-up">
             <h1 className="hero-heading fw-500 tx-dark">
             <span>- Simed Global</span>
             </h1>
@@ -19,16 +16,19 @@ const Hero1 = () => {
             market to allow instant screening for illnesses in the population.
             We continuously research, innovate, and create new ways to improve medical diagnostics solutions together with our partners and investors.
             </p>
-          </div>          
+          </div> 
+          <div className="col-12 down-arrow">
+            <Image
+                  width={39}
+                  height={75}
+                  src="/images/icon/down-arr.svg"
+                  alt="icon"
+                  className="mx-auto d-block mt-100"
+                />
+            </div>         
         </div>
       </div>
-        <Image
-              width={129}
-              height={175}
-              src="/images/icon/icon_50.svg"
-              alt="icon"
-              className="position-absolute"
-            />
+      
       {/*
       <Image 
         width={487}

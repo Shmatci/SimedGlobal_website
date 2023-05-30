@@ -10,10 +10,10 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="agency, business, business multipurpose, healthcare, medical devices, regulatory issues, distribution, sales, authorized representative, importer"
+          content="agency, business, business multipurpose, healthcare, new technology, uk, medical devices, regulatory issues, distribution, sales, authorized representative, importer"
         />
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/logo/site_icon-1.jpg" />
       </Head>
       <body>
         <Main />
