@@ -8,7 +8,7 @@ const Hero1 = () => {
         <div className="row">
           <div className="col-lg-12 col-md-10 m-auto" data-aos="fade-up">
             <h1 className="hero-heading fw-500 tx-dark">
-            <span>- Simed Global</span>
+            <span>Simed Global</span>
             </h1>
             <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
             At Simed Global our mission is to bring world beating

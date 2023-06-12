@@ -27,6 +27,7 @@ const HomePage = () => {
           <Banner />
         </div>  
       </div>
+      {/*
       <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
         <div className="container">
           <div className="row">
@@ -51,6 +52,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+  */}
       
       <div
         className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
