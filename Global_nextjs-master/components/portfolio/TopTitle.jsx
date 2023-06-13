@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const TopTitle = () => {
   return (
     <div className="fancy-feature-fiftyOne position-relative mt-200">
@@ -16,7 +18,7 @@ const TopTitle = () => {
         </div>
       </div>
       {/* /.container */}
-      <img
+      <Image
         src="/images/shape/shape_175.svg"
         alt="shap"
         className="lazy-img shapes shape-three"

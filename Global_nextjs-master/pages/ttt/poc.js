@@ -74,7 +74,7 @@ const Poc = () => {
         </div>
         {/* /.container */}
 
-        <img
+        <Image
           src="/images/shape/shape_171.svg"
           alt="shape"
           className="lazy-img shapes shape-one"

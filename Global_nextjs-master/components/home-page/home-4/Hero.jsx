@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 const Hero = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Hero = () => {
               data-aos="fade-up"
             >
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
-                <img
+                <Image
                   src="/images/shape/shape_25.svg"
                   alt="shape"
                   className="lazy-img shapes line-shape"
