@@ -6763,8 +6763,12 @@ body .btn-twentyTwo:hover {
   top: -40px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Ten ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.hero-banner-ten .heading-text {
+  color: #00869d;
+  font-weight: 500;
+}
 .hero-banner-ten {  
-  padding: 200px 0 90px;
+  padding: 100px 0 90px;
 }
 .hero-banner-ten .hero-heading p {
   text-align: left;

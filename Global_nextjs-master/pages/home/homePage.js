@@ -2,11 +2,9 @@ import Seo from "../../components/common/Seo";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import Banner from "../../components/home-page/home-1/Banner";
-import Block from "../../components/home-page/home-1/Block";
 import ContactForm from "../../components/home-page/home-1/ContactForm";
 import Feature from "../../components/home-page/home-1/Feature";
 import Hero from "../../components/home-page/home-1/Hero";
-import WhyChoose from "../../components/home-page/home-1/WhyChoose";
 
 const HomePage = () => {
   return (

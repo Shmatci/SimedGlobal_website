@@ -16,7 +16,7 @@ const teamMembers = [
   {
     id: 3,
     name: "Dr Patrick Druggan",
-    role: "Director of Regulatory Affairs and Quality Management",
+    role: "Chief Scientific Officer",
     imgSrc: "/images/team/Patrick.jpg",
   },
   {
