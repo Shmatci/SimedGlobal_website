@@ -6,7 +6,7 @@ const ContactForm = () => {
 
   return (
     <div className="form-style-one" data-aos="fade-up">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} action="mailto:tamara@simedglobal.com">
         <div className="messages" />
         <div className="row controls">
           <div className="col-12">

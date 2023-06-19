@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home2/langkiih/SimedWebsite
-    - /bin/cp -R ./* $DEPLOYPATH
