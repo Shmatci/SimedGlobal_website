@@ -1,7 +1,22 @@
+import { useRef } from "react";
+
 const ContactForm = () => {
-  const handleSubmit = (event) => {
+  const inputRef = useRef(null)
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Handle form submission
+
+    const res = await fetch('/api/handleSubmit', {
+      body: JSON.stringify({
+        email: inputRef.current.value,
+      }),
+
+      headers: {
+        'Content-Type': 'application/json',
+      },
+
+      method: 'POST',
+    }); 
+  
   };
 
   return (
@@ -11,6 +26,7 @@ const ContactForm = () => {
         <div className="row controls">
           <div className="col-12">
             <div className="input-group-meta form-group mb-30">
+              <label htmlFor="name">Please enter your name:</label>
               <input
                 type="text"
                 placeholder="Your Name*"
@@ -25,10 +41,13 @@ const ContactForm = () => {
 
           <div className="col-12">
             <div className="input-group-meta form-group mb-50">
+            <label htmlFor="email">Please enter your email:</label>
+
               <input
                 type="email"
                 placeholder="Email Address*"
                 name="email"
+                ref={inputRef}
                 required="required"
                 data-error="Valid email is required."
               />
