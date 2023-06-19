@@ -6,7 +6,7 @@ const ContactForm = () => {
 
   return (
     <div className="form-style-one" data-aos="fade-up">
-      <form onSubmit={handleSubmit} action="mailto:tamara@simedglobal.com">
+      <form onSubmit={handleSubmit} action="mailto:tamara@simedglobal.com" method="post">
         <div className="messages" />
         <div className="row controls">
           <div className="col-12">
@@ -52,7 +52,7 @@ const ContactForm = () => {
           {/* End .col-12 */}
 
           <div className="col-12">
-            <button className="btn-twentyTwo fw-500 tran3s d-block">
+            <button className="btn-twentyTwo fw-500 tran3s d-block" type="submit">
               Send Message
             </button>
           </div>
