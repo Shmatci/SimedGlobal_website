@@ -30,6 +30,8 @@ const Pricing = () => {
           src="/images/shape/shape_178.svg"
           alt="shape"
           className="shapes shape-one w-100"
+          width={1799}
+          height={633}
         />
       </div>
       {/* /.error-page-content */}

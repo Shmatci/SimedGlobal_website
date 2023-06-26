@@ -5,31 +5,7 @@ import Link from "next/link";
 import Devices from "../../components/devices/devices";
 import Image from "next/image";
 
-const Poc = () => {
-  const solutions = [
-    { text: "Mobile POC device" },
-    { text: "No need for Phlebotomist" },
-    { text: "CQC Doctor reviewed results" },
-    { text: "No need to send to a laboratory" },
-    { text: "Affordable with High ROI" },
-  ];
-
-  const devices = [
-    { text: "Quick 15min testing" },
-    { text: "Small and portable" },
-    { text: "Simple finger pick of blood (currently available for 17 tests)" },
-    { text: "One appointment/visit needed" },
-    { text: "Total point of care testing solution" },
-  ];
-
-  const starRating = Array(5)
-    .fill()
-    .map((_, index) => (
-      <li key={index}>
-        <i className="fa-solid fa-star" />
-      </li>
-    ));
-
+const Haiim = () => {
   return (
     <>
       <Seo pageTitle="POC Blood Tests" />
@@ -99,11 +75,7 @@ const Poc = () => {
                   Our solution has 5 key elements to ensure minimum disruption
                   for maximum impact.
                 </p>
-                <ul className="style-none list-item ">
-                  {solutions.map((solution, index) => (
-                    <li key={index}>{solution.text}</li>
-                  ))}
-                </ul>
+               
               </div>
             </div>
             {/* End .col */}
@@ -131,14 +103,7 @@ const Poc = () => {
                   diseases, thyroid function, tumours, Covid-19 and other
                   diseases.
                 </p>
-                <div className="row pb-60 ">
-                  <Devices />
-                </div>
-                  <ul className="style-none list-item ">
-                    {devices.map((device, index) => (
-                      <li key={index}>{device.text}</li>
-                    ))}
-                  </ul>
+
               </div>
               {/* /.block-style-four */}
             </div>
@@ -304,4 +269,4 @@ const Poc = () => {
   );
 };
 
-export default Poc;
+export default Haiim;

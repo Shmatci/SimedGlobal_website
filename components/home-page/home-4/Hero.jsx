@@ -16,6 +16,8 @@ const Hero = () => {
                   src="/images/shape/shape_25.svg"
                   alt="shape"
                   className="lazy-img shapes line-shape"
+                  width={235}
+                  height={23}
                 />
                 At Simed Global 
                 <span className="position-relative d-inline-block">

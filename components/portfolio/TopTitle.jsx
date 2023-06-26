@@ -22,6 +22,8 @@ const TopTitle = () => {
         src="/images/shape/shape_175.svg"
         alt="shap"
         className="lazy-img shapes shape-three"
+        height={122}
+        width={110}
       />
     </div>
   );

@@ -2,18 +2,19 @@ const columns = [
   {
     title: "Links",
     links: [
-      { label: "Home", url: "/" },
-      { label: "About", url: "/about" },
-      { label: "3T's", url: "/ttt" },
-      { label: "Contact", url: "/contact" },
+      { label: "- Home", url: "/" },
+      { label: "- About", url: "/about" },
+      { label: "- 3T's", url: "/ttt" },
+      { label: "- Contact", url: "/contact" },
     ],
   },
   {
     title: "Tomorrow's Technology Today",
     links: [
-      { label: "POC Blood Tests", url: "/ttt/poc" },
-      { label: "EarWell", url: "https://www.earwellclinics.com" },
-      { label: "Self Health Tests", url: "/ttt/selfHealthTests" },
+      { label: "- POC Blood Tests", url: "/ttt/poc" },
+      { label: "- EarWell", url: "https://www.earwellclinics.com" },
+      { label: "- Self Health Tests", url: "/ttt/selfHealthTests" },
+      { label: "- Vacuum-Assisted Blood Collection", url: "/ttt/bloodCollection" },
     ],
   },
 ];
